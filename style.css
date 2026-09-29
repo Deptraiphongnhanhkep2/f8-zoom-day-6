@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    width: 68rem;
+    min-height: 37.5rem;
+    margin: 0 auto;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: #ccc;
+    font-size: 0.8rem;
+    background-color: #172b3a;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #294b63;
+    padding: 25px 16px;
+}
+
+.avatar h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.avatar h3 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.avatar img {
+    border-radius: 50%;
+    border: 4px solid #ccc;
+    width: 9rem;
+    height: 9rem;
+    margin-bottom: 16px;
+}
+.information,
+.objective {
+    background-color: #172b3a;
+    padding: 30px 10px;
+}
+
+.information ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.information li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.information li i {
+    width: 20px;
+    text-align: center;
+}
+
+.objective {
+    margin-top: auto;
+}
+
+.objective h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.objective p {
+    line-height: 1.5;
+}
+
+.content {
+    flex: 2;
+    padding: 24px 32px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.section-title i {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #294b63;
+    color: #fff;
+}
+
+.section-title h3 {
+    font-size: 1.2rem;
+}
+
+.education-info,
+.experience-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.education-info span,
+.experience-info span {
+    font-size: 1rem;
+}
+
+.education h4,
+.experience h4,
+.skill h4 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.education,
+.experience,
+.skill {
+    margin-bottom: 20px;
+}
+
