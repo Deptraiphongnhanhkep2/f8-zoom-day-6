@@ -443,3 +443,8 @@ body {
 .new-register a:hover{
     text-decoration: underline;
 }
+/* bài 5 */
+.froggy-pro img{
+    width: 60em;
+    height: 30rem;
+}
